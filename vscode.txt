@@ -1,0 +1,158 @@
+{
+	"editor.mouseWheelZoom": true,
+	"files.autoSave": "afterDelay",
+	"editor.fontFamily": "Dank Mono",
+	"tabnine.experimentalAutoImports": true,
+	"explorer.confirmDelete": false,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.minimap.enabled": false,
+	"editor.wordWrap": "on",
+	"html.format.wrapAttributes": "preserve",
+	"editor.wordWrapColumn": 60,
+	"workbench.editor.wrapTabs": true,
+	"[javascript]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": "apility.beautify-blade"
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": null
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.tslint": true,
+		"source.organizeImports": true
+	},
+	"[php]": {
+		"workbench.colorTheme": "Dracula",
+		"editor.defaultFormatter": "apility.beautify-blade"
+	},
+	"[less]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnType": true,
+	"editor.formatOnSaveMode": "modificationsIfAvailable",
+	"html.format.indentInnerHtml": true,
+	"html.format.indentHandlebars": true,
+	"html.format.templating": true,
+	"prettier.bracketSameLine": true,
+	"prettier.enableDebugLogs": true,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	"prettier.vueIndentScriptAndStyle": true,
+	"prettier.withNodeModules": true,
+	"kite.showWelcomeNotificationOnStartup": false,
+	"php.validate.executablePath": "c:/php/php.exe",
+	"git.autofetch": true,
+	"workbench.colorTheme": "Andromeda Italic Bordered",
+	"workbench.iconTheme": "material-icon-theme",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.cursorWidth": 0.5,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.allowMnemonics": true,
+
+	//New settings
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "comment",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			}
+		]
+	},
+
+	// cursor
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line",
+
+	//terminal
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontWeight": "normal",
+	"terminal.integrated.fontFamily": "Dank Mono, Operator Mono",
+
+	// terminal customization
+	"workbench.colorCustomizations": {
+		"terminal.background": "#2e3440",
+		"terminal.foreground": "#ccc5c5",
+		"terminalCursor.background": "#dd0ec2",
+		"terminal.ansiBlack": "#1D2021",
+		"terminal.ansiBlue": "#0D6678",
+		"terminal.ansiBrightBlack": "#05301f",
+		"terminal.ansiBrightBlue": "#0D6678",
+		"terminal.ansiBrightCyan": "#8BA59B",
+		"terminal.ansiBrightGreen": "#95C085",
+		"terminal.ansiBrightMagenta": "#e92d9e",
+		"terminal.ansiBrightRed": "#FB543F",
+		"terminal.ansiBrightWhite": "#FDF4C1",
+		"terminal.ansiBrightYellow": "#085248",
+		"terminal.ansiCyan": "#8BA59B",
+		"terminal.ansiGreen": "#95C085",
+		"terminal.ansiMagenta": "#e62fc7",
+		"terminal.ansiRed": "#FB543F",
+		"terminal.ansiWhite": "#093064",
+		"terminal.ansiYellow": "#0eb3e6",
+		"editorCursor.foreground": "#1696af",
+		"terminalCursor.foreground": "#3bcbe7"
+	},
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"Windows PowerShell": {
+			"path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+		}
+	},
+	"[blade]": {
+		"editor.defaultFormatter": "onecentlin.laravel-blade"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": true,
+	"editor.fontSize": 15,
+	"workbench.editor.enablePreview": false,
+	"editor.formatOnSave": true,
+	"liveshare.diagnosticLogging": true,
+	"liveServer.settings.ChromeDebuggingAttachment": true,
+	"liveServer.settings.fullReload": true,
+	"liveServer.settings.wait": 1,
+	"[css]": {
+		"editor.defaultFormatter": "apility.beautify-blade"
+	},
+	"liveSassCompile.settings.watchOnLaunch": true,
+	"liveSassCompile.settings.autoprefix": [],
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/assets/css",
+			"savePathReplacementPairs": null
+		}
+		/* {
+			"format": "compressed",
+			"extensionName": ".css",
+			"savePath": "/assets/css",
+			"savePathReplacementPairs": null
+		} */
+	],
+	"[html]": {
+		"editor.defaultFormatter": "apility.beautify-blade"
+	},
+	"liveSassCompile.settings.includeItems": [],
+	"liveServer.settings.donotShowInfoMsg": true
+}
