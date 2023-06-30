@@ -186,6 +186,7 @@
   // cursor
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
+
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -208,11 +209,11 @@
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
   "workbench.colorTheme": "Andromeda Italic",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   // terminal customization
   "workbench.colorCustomizations": {
-    "terminal.background": "#1D2021",
-    "terminal.foreground": "#A89984",
+    "terminal.background": "#272733",
+    "terminal.foreground": "#18dfe9",
     "terminalCursor.background": "#A89984",
     "terminalCursor.foreground": "#A89984",
     "terminal.ansiBlack": "#1D2021",
@@ -230,14 +231,22 @@
     "terminal.ansiMagenta": "#8F4673",
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#FAC03B"
+    "terminal.ansiYellow": "#FAC03B",
+    "editorCursor.foreground": "#eedf14"
   },
-  "files.autoSave": "onFocusChange",
-  "editor.fontWeight": "500",
+  "files.autoSave": "afterDelay",
+  "editor.fontWeight": "normal",
   "editor.mouseWheelZoom": true,
   "tabnine.experimentalAutoImports": true,
   "window.menuBarVisibility": "compact",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.tabSize": 5,
+  "editor.tabCompletion": "on",
+  "files.autoSaveDelay": 0
 }
