@@ -1,0 +1,147 @@
+
+{
+  // editor
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.fontSize": 20,
+  "editor.fontFamily": "Dank Mono ,Fira Code, Jetbrains Mono ,Operator Mono,  Kalpurush",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+
+  // config related to code formatting
+  // "editor.defaultFormatter": "apility.beautify-blade",
+  // "beautify.language": {
+  //   "css": ["css", "scss"],
+  //   "html": ["htm", "html"]
+  //   // ^^ providing just an array sets the VS Code file type
+  // },
+  // "editor.formatOnSave": true,
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": "apility.beautify-blade"
+  // },
+  // "[javascriptreact]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": null
+  // },
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  //   "source.fixAll.tslint": true,
+  //   "source.organizeImports": true
+  // },
+  // "eslint.alwaysShowStatus": true,
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+
+  //terminal
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "workbench.colorTheme": "Andromeda Italic Bordered",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#272733",
+    "terminal.foreground": "#18dfe9",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B",
+    "editorCursor.foreground": "#eedf14"
+  },
+  "files.autoSave": "afterDelay",
+  "editor.fontWeight": "normal",
+  "editor.mouseWheelZoom": true,
+  "tabnine.experimentalAutoImports": true,
+  "window.menuBarVisibility": "visible",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.tabCompletion": "on",
+  "files.autoSaveDelay": 0,
+  "prettier.proseWrap": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.indent": 4,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "vscode-icons",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.language.brackets": [],
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "zsh (2)": {
+      "path": "/usr/bin/zsh"
+    }
+  },
+  "editor.linkedEditing": true,
+  "chat.editor.lineHeight": 6,
+  "editor.lineHeight": 1.9,
+  "editor.suggestLineHeight": 26,
+  "html.format.wrapAttributes": "force-aligned",
+  "files.simpleDialog.enable": true,
+  "explorer.fileNesting.enabled": true,
+  "git.suggestSmartCommit": false,
+  "editor.fontVariations": true,
+  "editor.columnSelection": true
+}
