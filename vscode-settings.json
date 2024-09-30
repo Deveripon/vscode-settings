@@ -1,147 +1,165 @@
-
 {
-  // editor
-  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
-  "editor.fontSize": 20,
-  "editor.fontFamily": "Dank Mono ,Fira Code, Jetbrains Mono ,Operator Mono,  Kalpurush",
-  "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 120,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
+    // editor
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.fontSize": 23,
+    "editor.fontFamily": "Dank Mono , Operator Mono,  Jetbrains Mono ,Fira Code,  Kalpurush",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 70,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["comment"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    // cursor
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+
+    //terminal
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "MesloLGS NF,Fira Code, Operator Mono",
+    "workbench.colorTheme": "Bearded Theme Black & Diamond",
+    // terminal customization
+    "workbench.colorCustomizations": {
+        // "terminal.background": "#272733",
+        "terminal.foreground": "#18dfe9",
+        "terminalCursor.background": "#A89984",
+        "terminalCursor.foreground": "#A89984",
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBlue": "#0D6678",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#2c9403",
+        "terminal.ansiBrightMagenta": "#8F4673",
+        "terminal.ansiBrightRed": "#FB543F",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#FAC03B",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#398d04ec",
+        "terminal.ansiMagenta": "#8F4673",
+        "terminal.ansiRed": "#FB543F",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#FAC03B",
+        "editorCursor.foreground": "#de14a5"
+    },
+    "editor.fontWeight": "normal",
+    "editor.mouseWheelZoom": true,
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.cursorBlinking": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.tabCompletion": "on",
+    "files.autoSaveDelay": 0,
+    "workbench.tree.indent": 4,
+    "liveServer.settings.donotVerifyTags": true,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.language.brackets": [],
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "zsh (2)": {
+            "path": "/usr/bin/zsh"
         }
-      }
-    ]
-  },
-  // cursor
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "expand",
+    },
+    "editor.linkedEditing": true,
+    "chat.editor.lineHeight": 6,
+    "editor.lineHeight": 1.8,
+    "editor.suggestLineHeight": 30,
+    "html.format.wrapAttributes": "force-aligned",
+    "files.simpleDialog.enable": true,
+    "explorer.fileNesting.enabled": true,
+    "git.suggestSmartCommit": false,
+    "editor.fontVariations": true,
+    "git.openRepositoryInParentFolders": "never",
+    "prettier.tabWidth": 4,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.environmentChangesIndicator": "on",
+    "codesnap.backgroundColor": "transparent",
+    "codesnap.transparentBackground": true,
+    "json.format.keepLines": true,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "remote.SSH.remotePlatform": {
+        "sandbox.2lr7s9.csb": "linux",
+        "sandbox.8j492p.csb": "linux",
+        "sandbox.ksgzf4.csb": "linux",
+        "sandbox.lqyfg2.csb": "linux",
+        "sandbox.fx9rk8.csb": "linux",
+        "sandbox.3nn8hp.csb": "linux"
+    },
+    "codesandbox.currentWorkspace": "6af272e6-be34-4be7-940b-758948898930",
+    "editor.minimap.enabled": false,
+    "tailwind-fold.foldLengthThreshold": 5,
 
-  // config related to code formatting
-  // "editor.defaultFormatter": "apility.beautify-blade",
-  // "beautify.language": {
-  //   "css": ["css", "scss"],
-  //   "html": ["htm", "html"]
-  //   // ^^ providing just an array sets the VS Code file type
-  // },
-  // "editor.formatOnSave": true,
-  // "[javascript]": {
-  //   "editor.formatOnSave": false,
-  //   "editor.defaultFormatter": "apility.beautify-blade"
-  // },
-  // "[javascriptreact]": {
-  //   "editor.formatOnSave": false,
-  //   "editor.defaultFormatter": null
-  // },
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.eslint": true,
-  //   "source.fixAll.tslint": true,
-  //   "source.organizeImports": true
-  // },
-  // "eslint.alwaysShowStatus": true,
-  // config related to code formatting
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": true
-  },
-  "eslint.alwaysShowStatus": true,
-
-  //terminal
-  "terminal.integrated.fontSize": 18,
-  "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
-  "workbench.colorTheme": "Andromeda Italic Bordered",
-  // terminal customization
-  "workbench.colorCustomizations": {
-    "terminal.background": "#272733",
-    "terminal.foreground": "#18dfe9",
-    "terminalCursor.background": "#A89984",
-    "terminalCursor.foreground": "#A89984",
-    "terminal.ansiBlack": "#1D2021",
-    "terminal.ansiBlue": "#0D6678",
-    "terminal.ansiBrightBlack": "#665C54",
-    "terminal.ansiBrightBlue": "#0D6678",
-    "terminal.ansiBrightCyan": "#8BA59B",
-    "terminal.ansiBrightGreen": "#95C085",
-    "terminal.ansiBrightMagenta": "#8F4673",
-    "terminal.ansiBrightRed": "#FB543F",
-    "terminal.ansiBrightWhite": "#FDF4C1",
-    "terminal.ansiBrightYellow": "#FAC03B",
-    "terminal.ansiCyan": "#8BA59B",
-    "terminal.ansiGreen": "#95C085",
-    "terminal.ansiMagenta": "#8F4673",
-    "terminal.ansiRed": "#FB543F",
-    "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#FAC03B",
-    "editorCursor.foreground": "#eedf14"
-  },
-  "files.autoSave": "afterDelay",
-  "editor.fontWeight": "normal",
-  "editor.mouseWheelZoom": true,
-  "tabnine.experimentalAutoImports": true,
-  "window.menuBarVisibility": "visible",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorWidth": 2,
-  "terminal.integrated.cursorBlinking": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.tabCompletion": "on",
-  "files.autoSaveDelay": 0,
-  "prettier.proseWrap": "always",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.tree.indent": 4,
-  "liveServer.settings.donotVerifyTags": true,
-  "explorer.confirmDelete": false,
-  "workbench.iconTheme": "vscode-icons",
-  "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "editor.language.brackets": [],
-  "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "bash",
-      "icon": "terminal-bash"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.tslint": "explicit",
+        "source.organizeImports": "explicit"
     },
-    "zsh": {
-      "path": "zsh"
+    "eslint.run": "onSave",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
     },
-    "fish": {
-      "path": "fish"
+    "path-autocomplete.extensionOnImport": true,
+    "path-autocomplete.excludedItems": {
+        "*/.js": {
+            "when": "**"
+        },
+        "*/.jsx": {
+            "when": "**"
+        }
     },
-    "tmux": {
-      "path": "tmux",
-      "icon": "terminal-tmux"
-    },
-    "pwsh": {
-      "path": "pwsh",
-      "icon": "terminal-powershell"
-    },
-    "zsh (2)": {
-      "path": "/usr/bin/zsh"
-    }
-  },
-  "editor.linkedEditing": true,
-  "chat.editor.lineHeight": 6,
-  "editor.lineHeight": 1.9,
-  "editor.suggestLineHeight": 26,
-  "html.format.wrapAttributes": "force-aligned",
-  "files.simpleDialog.enable": true,
-  "explorer.fileNesting.enabled": true,
-  "git.suggestSmartCommit": false,
-  "editor.fontVariations": true,
-  "editor.columnSelection": true
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": false,
+    "console-ninja.featureSet": "Community",
+    "prettier.bracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.proseWrap": "never",
+    "prettier.singleAttributePerLine": true,
+    "prettier.endOfLine": "crlf",
+    "tailwind-fold.autoFold": false,
+    "explorer.confirmPasteNative": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "material-icon-theme.folders.associations": {},
+    "material-icon-theme.folders.color": "#02B920",
+    "explorer.compactFolders": false,
+    "npm.enableRunFromFolder": true,
+    "window.customTitleBarVisibility": "auto",
+    "window.menuBarVisibility": "toggle",
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 0.6,
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false
 }
+
