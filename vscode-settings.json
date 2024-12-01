@@ -163,3 +163,240 @@
     "git.confirmSync": false
 }
 
+
+// uploaded at 12/1/2024
+
+{
+    // editor=======================
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "on",
+    "editor.fontWeight": "normal",
+    "editor.mouseWheelZoom": true,
+    "editor.tabCompletion": "on",
+    "files.autoSaveDelay": 0,
+    "workbench.tree.indent": 4,
+    "editor.language.brackets": [],
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["comment"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    // cursor========================
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+
+    //terminal====================
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.fontFamily": "Dank Mono,Jetbrains Mono, Fira Code, Operator Mono",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "zsh (2)": {
+            "path": "/usr/bin/zsh"
+        }
+    },
+    // terminal customization
+    "workbench.colorCustomizations": {
+        //"terminal.background": "#272733",
+        "terminal.foreground": "#108e94",
+        "terminalCursor.background": "#A89984",
+        "terminalCursor.foreground": "#A89984",
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBlue": "#0D6678",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#53eb17",
+        "terminal.ansiBrightMagenta": "#dd061f",
+        "terminal.ansiBrightRed": "#FB543F",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#039bed",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#0537ebec",
+        "terminal.ansiMagenta": "#ca1258",
+        "terminal.ansiRed": "#FB543F",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#14e14b",
+        "editorCursor.foreground": "#de14a5"
+    },
+
+    //Utilities or Plugin
+    "tabnine.experimentalAutoImports": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "editor.linkedEditing": true,
+    "editor.fontVariations": true,
+    "chat.editor.lineHeight": 6,
+    "explorer.fileNesting.enabled": true,
+    "prettier.tabWidth": 4,
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.environmentChangesIndicator": "on",
+    "codesnap.backgroundColor": "transparent",
+    "codesnap.transparentBackground": true,
+    "json.format.keepLines": true,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "remote.SSH.remotePlatform": {
+        "sandbox.2lr7s9.csb": "linux",
+        "sandbox.8j492p.csb": "linux",
+        "sandbox.ksgzf4.csb": "linux",
+        "sandbox.lqyfg2.csb": "linux",
+        "sandbox.fx9rk8.csb": "linux",
+        "sandbox.3nn8hp.csb": "linux"
+    },
+    "codesandbox.currentWorkspace": "6af272e6-be34-4be7-940b-758948898930",
+    "editor.minimap.enabled": false,
+
+    //linter and prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.tslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "eslint.run": "onSave",
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.validate.enable": true,
+    "typescript.validate.enable": true,
+
+    // eslint prettier
+    "prettier.bracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.endOfLine": "crlf",
+    "explorer.confirmPasteNative": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "explorer.compactFolders": false,
+    "npm.enableRunFromFolder": true,
+    "workbench.sideBar.location": "right",
+    "files.autoSave": "afterDelay",
+    "editor.copyWithSyntaxHighlighting": true,
+    "editor.fontFamily": "Dank mono,Operator Mono,Fira Code, JetBrains Mono,Kalpurush,Adorsholipi Siyam Rupali",
+    "editor.fontSize": 19,
+    "editor.lineHeight": 38,
+    "editor.suggestFontSize": 18,
+    "editor.suggestLineHeight": 33,
+    "terminal.integrated.lineHeight": 1.5,
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.menuBarVisibility": "toggle",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "debug.console.acceptSuggestionOnEnter": "on",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "accessibility.underlineLinks": true,
+    "javascript.experimental.updateImportsOnPaste": true,
+    "typescript.preferences.organizeImports": {
+        "typeOrder": "auto"
+    },
+
+    //if face auto suggestion problem
+    /*     "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
+    "typescript.tsserver.log": "verbose",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "typescript.check.tscVersion": false,
+    "typescript.tsserver.logToFile": "verbose",
+    "typescript.tsc.autoDetect": "on",
+    "typescript.experimental.syntaxFolding": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.suggest.completeFunctionCalls": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.tsc.delay": "always",
+    "typescript.tsc.file": "auto",
+    "typescript.tsc.onSave": "off",
+    "typescript.tsc.onType": "off",
+    "tailwind-fold.unfoldIfLineSelected": true,
+    "tailwind-fold.foldStyle": "QUOTES", */
+
+    "vsicons.presets.hideExplorerArrows": true,
+    "window.zoomPerWindow": false,
+    "terminal.integrated.env.windows": {},
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu-20.04 (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": ["-d", "Ubuntu-20.04"]
+        }
+    },
+    "[mdx]": {
+        "editor.defaultFormatter": "unifiedjs.vscode-mdx"
+    },
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "vscode-icons",
+    "git.autofetch": true,
+    "editor.guides.bracketPairs": true,
+    "errorLens.lintFilePaths": {
+        "eslint": [
+            "**/eslint.config.{js,cjs,yaml,yml,json}",
+            "**/*package.json"
+        ],
+        "Stylelint": [
+            "**/*.stylelintrc",
+            "**/*.stylelintrc.{cjs,js,json,yaml,yml}",
+            "**/*stylelint.config.{cjs,js}",
+            "**/*package.json"
+        ]
+    },
+    "workbench.colorTheme": "Bearded Theme Black & Diamond"
+}
+
+
+
