@@ -1,391 +1,5 @@
 {
     // editor=======================
-    "editor.lineNumbers": "off",
-    "editor.mouseWheelZoom": true,
-    "editor.tabCompletion": "on",
-    "files.autoSaveDelay": 0,
-    "editor.language.brackets": [],
-    // cursor========================
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-
-    //terminal====================
-    "terminal.integrated.fontWeight": "300",
-    "terminal.integrated.fontFamily": "Geist Mono,Dank Mono,Jetbrains Mono, Fira Code, Operator Mono",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorWidth": 2,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.profiles.linux": {
-        "bash": {
-            "path": "bash",
-            "icon": "terminal-bash"
-        },
-        "zsh": {
-            "path": "zsh"
-        },
-        "fish": {
-            "path": "fish"
-        },
-        "tmux": {
-            "path": "tmux",
-            "icon": "terminal-tmux"
-        },
-        "pwsh": {
-            "path": "pwsh",
-            "icon": "terminal-powershell"
-        },
-        "zsh (2)": {
-            "path": "/usr/bin/zsh"
-        }
-    },
-    // terminal customization
-    "workbench.colorCustomizations": {
-        //"terminal.background": "#272733",
-        "terminal.foreground": "#108e94",
-        "terminalCursor.background": "#A89984",
-        "terminalCursor.foreground": "#A89984",
-        "terminal.ansiBlack": "#1D2021",
-        "terminal.ansiBlue": "#0D6678",
-        "terminal.ansiBrightBlack": "#665C54",
-        "terminal.ansiBrightBlue": "#0D6678",
-        "terminal.ansiBrightCyan": "#8BA59B",
-        "terminal.ansiBrightGreen": "#53eb17",
-        "terminal.ansiBrightMagenta": "#dd061f",
-        "terminal.ansiBrightRed": "#FB543F",
-        "terminal.ansiBrightWhite": "#FDF4C1",
-        "terminal.ansiBrightYellow": "#039bed",
-        "terminal.ansiCyan": "#8BA59B",
-        "terminal.ansiGreen": "#0537ebec",
-        "terminal.ansiMagenta": "#ca1258",
-        "terminal.ansiRed": "#FB543F",
-        "terminal.ansiWhite": "#A89984",
-        "terminal.ansiYellow": "#14e14b",
-        "editorCursor.foreground": "#de14a5"
-    },
-
-    //Utilities or Plugin
-    "tabnine.experimentalAutoImports": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "explorer.confirmDragAndDrop": false,
-
-    "editor.fontVariations": true,
-    "chat.editor.lineHeight": 6,
-    "explorer.fileNesting.enabled": true,
-
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "terminal.integrated.env.linux": {},
-    "terminal.integrated.environmentChangesIndicator": "on",
-    "codesnap.transparentBackground": true,
-    "json.format.keepLines": true,
-    "markdown-preview-enhanced.previewTheme": "github-dark.css",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "remote.SSH.remotePlatform": {
-        "sandbox.2lr7s9.csb": "linux",
-        "sandbox.8j492p.csb": "linux",
-        "sandbox.ksgzf4.csb": "linux",
-        "sandbox.lqyfg2.csb": "linux",
-        "sandbox.fx9rk8.csb": "linux",
-        "sandbox.3nn8hp.csb": "linux"
-    },
-    "codesandbox.currentWorkspace": "6af272e6-be34-4be7-940b-758948898930",
-    "editor.minimap.enabled": false,
-
-    //linter and prettier
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit",
-        "source.fixAll.tslint": "explicit",
-        "source.organizeImports": "explicit"
-    },
-    "eslint.run": "onSave",
-    "emmet.triggerExpansionOnTab": true,
-    "javascript.validate.enable": true,
-    "typescript.validate.enable": true,
-
-    // eslint prettier
-    "prettier.bracketSameLine": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.endOfLine": "crlf",
-    "explorer.confirmPasteNative": false,
-    "workbench.editor.enablePreview": false,
-    "explorer.compactFolders": false,
-    "npm.enableRunFromFolder": true,
-    "editor.copyWithSyntaxHighlighting": true,
-    "editor.renderControlCharacters": false,
-    "workbench.editor.editorActionsLocation": "hidden",
-    "window.menuBarVisibility": "toggle",
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "debug.console.acceptSuggestionOnEnter": "on",
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "accessibility.underlineLinks": true,
-    "javascript.experimental.updateImportsOnPaste": true,
-    "typescript.preferences.organizeImports": {
-        "typeOrder": "auto"
-    },
-
-    //if face auto suggestion problem
-    /*     "typescript.tsdk": "node_modules/typescript/lib",
-    "typescript.enablePromptUseWorkspaceTsdk": true,
-    "typescript.preferences.quoteStyle": "single",
-    "typescript.preferences.importModuleSpecifier": "non-relative",
-    "typescript.preferences.importModuleSpecifierEnding": "minimal",
-    "typescript.tsserver.log": "verbose",
-    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
-    "typescript.check.tscVersion": false,
-    "typescript.tsserver.logToFile": "verbose",
-    "typescript.tsc.autoDetect": "on",
-    "typescript.experimental.syntaxFolding": true,
-    "typescript.referencesCodeLens.enabled": true,
-    "typescript.suggest.completeFunctionCalls": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "typescript.tsc.delay": "always",
-    "typescript.tsc.file": "auto",
-    "typescript.tsc.onSave": "off",
-    "typescript.tsc.onType": "off",
-    "tailwind-fold.unfoldIfLineSelected": true,
-    "tailwind-fold.foldStyle": "QUOTES", */
-
-    "vsicons.presets.hideExplorerArrows": true,
-    "window.zoomPerWindow": false,
-    "terminal.integrated.env.windows": {},
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
-        },
-        "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
-            "args": [],
-            "icon": "terminal-cmd"
-        },
-        "Git Bash": {
-            "source": "Git Bash"
-        },
-        "Ubuntu-20.04 (WSL)": {
-            "path": "C:\\WINDOWS\\System32\\wsl.exe",
-            "args": ["-d", "Ubuntu-20.04"]
-        }
-    },
-    "[mdx]": {
-        "editor.defaultFormatter": "unifiedjs.vscode-mdx"
-    },
-    "git.autofetch": true,
-    "editor.guides.bracketPairs": true,
-    "errorLens.lintFilePaths": {
-        "eslint": [
-            "**/eslint.config.{js,cjs,yaml,yml,json}",
-            "**/*package.json"
-        ],
-        "Stylelint": [
-            "**/*.stylelintrc",
-            "**/*.stylelintrc.{cjs,js,json,yaml,yml}",
-            "**/*stylelint.config.{cjs,js}",
-            "**/*package.json"
-        ]
-    },
-    "vscode_custom_css.imports": [
-        // For Windows
-        "file:///C:/Users/devri/Documents/my-custom-vscode/custom-vscode.css",
-        "file:///C:/Users/devri/Documents/my-custom-vscode/custom-vscode-script.js"
-    ],
-    // new settings=====================================================
-
-    "editor.emptySelectionClipboard": false,
-
-    "window.newWindowDimensions": "inherit",
-    "editor.multiCursorModifier": "alt",
-    "files.trimTrailingWhitespace": true,
-    "diffEditor.renderSideBySide": false,
-    "editor.snippetSuggestions": "top",
-    "editor.detectIndentation": false,
-    "window.nativeFullScreen": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "workbench.editor.showTabs": "multiple",
-    "editor.guides.indentation": false,
-
-    // Silence the Noise
-    "breadcrumbs.enabled": false,
-    "scm.diffDecorations": "none",
-    "editor.hover.delay": 1500,
-    "editor.hover.enabled": true,
-    "editor.matchBrackets": "never",
-    "workbench.tips.enabled": false,
-    "editor.colorDecorators": false,
-    "git.decorations.enabled": false,
-    "workbench.startupEditor": "none",
-    "editor.lightbulb.enabled": "off",
-    "editor.selectionHighlight": false,
-    "editor.overviewRulerBorder": false,
-    "editor.renderLineHighlight": "none",
-    "editor.occurrencesHighlight": "off",
-    "problems.decorations.enabled": false,
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.gotoLocation.multipleReferences": "goto",
-    "editor.gotoLocation.multipleDefinitions": "goto",
-    "editor.gotoLocation.multipleDeclarations": "goto",
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.gotoLocation.multipleImplementations": "goto",
-    "editor.gotoLocation.multipleTypeDefinitions": "goto",
-    // Typography
-        "editor.fontFamily": "Geist Mono,Dank mono,Operator Mono,Fira Code, JetBrains Mono,Kalpurush,Adorsholipi Siyam Rupali",
-
-    "editor.suggestFontSize": 16,
-    "editor.suggestLineHeight": 30,
-    "terminal.integrated.lineHeight": 1.5,
-    "terminal.integrated.fontSize": 16,
-
-    "search.useIgnoreFiles": false,
-    "search.exclude": {
-        // Hide everything in /vendor, except the "laravel" and "livewire" folder.
-        "**/vendor/{[^l],?[^ai]}*": true,
-        // Hide everything in /public, except "index.php"
-        "**/public/{[^i],?[^n]}*": true,
-        "**/node_modules": true,
-        "**/dist": true,
-        "**/_ide_helper.php": true,
-        "**/composer.lock": true,
-        "**/package-lock.json": true,
-        "storage": true,
-        ".phpunit.result.cache": true
-    },
-
-    /**
-    * Code
-    **/
-    // Include "-" in word selection.
-    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-    "emmet.includeLanguages": {
-        "blade": "html",
-        "vue-html": "html",
-        "vue": "html",
-        "react": "html",
-        "javascript": "html"
-    },
-    "files.associations": {
-        ".php_cs": "php",
-        ".php_cs.dist": "php"
-    },
-
-    /**
-    * Prettier
-    **/
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[tailwindcss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "prettier.requireConfig": true,
-    "prettier.useEditorConfig": false,
-    "explorer.sortOrder": "type",
-    "prettier.tabWidth": 4,
-    "vetur.format.options.tabSize": 4,
-    "workbench.tree.indent": 15,
-
-    "editor.wordWrapColumn": 120,
-    "files.autoSave": "afterDelay",
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-
-    "editor.quickSuggestions": {
-        "strings": true
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.linkedEditing": true,
-    "editor.formatOnSave": false,
-    // "editor.fontLigatures": false,
-    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
-    "diffEditor.wordWrap": "on",
-    "notebook.output.wordWrap": true,
-    "editor.fontSize": 16,
-    "editor.minimap.maxColumn": 250,
-    "codesnap.containerPadding": "8em",
-    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
-    "explorer.confirmDelete": false,
-    "editor.accessibilitySupport": "off",
-    "chat.editor.wordWrap": "on",
-    "editor.wordWrap": "wordWrapColumn",
-    "tailwindCSS.includeLanguages": {
-        "plaintext": "html"
-    },
-    "tailwindCSS.experimental.configFile": null,
-    "editor.fontWeight": "400",
-    "workbench.statusBar.visible": false,
-    "editor.inlineSuggest.suppressSuggestions": true,
-    "codesnap.backgroundColor": "#FFC540",
-    "codesnap.showLineNumbers": false,
-    "codesnap.roundedCorners": true,
-    "editor.padding.top": 16,
-    "editor.stickyScroll.enabled": false,
-    "editor.lineHeight": 32,
-
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-              "scope": [
-                "comment",
-                "keyword",
-                "variable.language",
-                "entity.other.attribute-name.html",
-                "entity.other.attribute-name",
-                "keyword.control",
-                "storage.type",
-                "comment",
-                "comment.block",
-                "comment.line"
-              ],
-              "settings": {
-                "fontStyle": ""
-              }
-            }
-          ]
-    },
-    "material-icon-theme.saturation": 1,
-    "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
-    "workbench.sideBar.location": "right",
-    "material-icon-theme.files.color": "#42a5f5",
-    "workbench.tree.enableStickyScroll": false,
-    "workbench.iconTheme": "gruvbox-material-icon-theme",
-}
-
-
-
-
-//========================================================================================================================================================
-
-{
-    // editor=======================
     "editor.lineNumbers": "on",
     "editor.mouseWheelZoom": true,
     "editor.tabCompletion": "on",
@@ -396,8 +10,8 @@
     "editor.cursorBlinking": "expand",
 
     //terminal====================
-    "terminal.integrated.fontWeight": "300",
-    "terminal.integrated.fontFamily": "Geist Mono,Dank Mono,Jetbrains Mono, Fira Code, Operator Mono",
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.fontFamily": "Geist Mono,Dank Mono, Fira Code, Operator Mono",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
     "terminal.integrated.cursorBlinking": true,
@@ -423,6 +37,12 @@
         },
         "zsh (2)": {
             "path": "/usr/bin/zsh"
+        },
+        "sh": {
+            "path": "/bin/sh"
+        },
+        "rbash": {
+            "path": "/bin/rbash"
         }
     },
     // terminal customization
@@ -559,9 +179,13 @@
         ]
     },
     "vscode_custom_css.imports": [
+        // Absolute file paths for your css/js files
+        // For Mac or Linux
+        "file:///home/devripon/vscode/custom-vscode.css",
+        "file:///home/devripon/devripon/vscode-script.js"
         // For Windows
-        "file:///C:/Users/devri/Documents/my-custom-vscode/custom-vscode.css",
-        "file:///C:/Users/devri/Documents/my-custom-vscode/custom-vscode-script.js"
+        // "file:///C:/path-of-custom-css/custom-vscode.css",
+        // "file:///C:/path-of-custom-css/custom-vscode-script.js"
     ],
     // new settings=====================================================
 
@@ -599,12 +223,12 @@
     "editor.gotoLocation.multipleImplementations": "goto",
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
     // Typography
-    "editor.fontFamily": "Geist Mono,Dank mono,Operator Mono,Fira Code, JetBrains Mono,Kalpurush,Adorsholipi Siyam Rupali",
+    "editor.fontFamily": "'Geist Mono','Fira Code','Dank Mono','JetBrains Mono','Adorsholipi'",
 
-    "editor.suggestFontSize": 16,
+    "editor.suggestFontSize": 19,
     "editor.suggestLineHeight": 30,
     "terminal.integrated.lineHeight": 1.5,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 18,
 
     "search.useIgnoreFiles": false,
     "search.exclude": {
@@ -687,11 +311,11 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.linkedEditing": true,
     "editor.formatOnSave": true,
-    // "editor.fontLigatures": false,
+    //"editor.fontLigatures": false,
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
     "diffEditor.wordWrap": "on",
     "notebook.output.wordWrap": true,
-    "editor.fontSize": 17,
+    "editor.fontSize": 19,
     "editor.minimap.maxColumn": 250,
     "codesnap.containerPadding": "50px",
     "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
@@ -750,5 +374,6 @@
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "color-highlight.matchWords": true,
     "diffEditor.maxComputationTime": 0,
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "window.zoomLevel": 0.5
 }
